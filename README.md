@@ -17,16 +17,16 @@
 ## Ход работ
 
 Для выполнения задания была создана виртуальная машина под гипервизопом `VMware` с ОС `Ubuntu 22.04.1` и был использован `python` версии `3.10`, поставляемый с данной ОС.
-![[./Screenshots/Версия ОС ubuntu.jpg]]
+![alt text](https://github.com/Nsev13/testnet/blob/master/Screenshots/%D0%92%D0%B5%D1%80%D1%81%D0%B8%D1%8F%20%D0%9E%D0%A1%20ubuntu.jpg)
 
 Затем было создано виртуальное пространство `python` с помощью `venv` (пакет `python3.10-venv`), проверена корректная структура директории, содержащей в себе файлы виртуального пространста, и был создан файл `main.py`, который запускался для выполнения задания.
-![[./Screenshots/Создание виртуального пространства venv.jpg]]
+![alt text](https://github.com/Nsev13/testnet/blob/master/Screenshots/%D0%A1%D0%BE%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%B2%D0%B8%D1%80%D1%82%D1%83%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B3%D0%BE%20%D0%BF%D1%80%D0%BE%D1%81%D1%82%D1%80%D0%B0%D0%BD%D1%81%D1%82%D0%B2%D0%B0%20venv.jpg)
 
 Вывод работы скрипта представлен ниже
-![[./Screenshots/Вывод программы.jpg]]
+![alt text](https://github.com/Nsev13/testnet/blob/master/Screenshots/%D0%92%D1%8B%D0%B2%D0%BE%D0%B4%20%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%BC%D1%8B.jpg)
 
 Каждая строчка вывода отвечает за соответсвующий вопрос из тестового задания.
 Для каждого задания были написаны свои функции с приведенной типизацией.
-![[./Screenshots/Код скрипта main.py.jpg]]
+![alt text](https://github.com/Nsev13/testnet/blob/master/Screenshots/%D0%9A%D0%BE%D0%B4%20%D1%81%D0%BA%D1%80%D0%B8%D0%BF%D1%82%D0%B0%20main.py.jpg)
 
 Код можно посмотреть в репозитории по пути `./src/main.py`
